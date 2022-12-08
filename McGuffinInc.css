@@ -40,3 +40,28 @@ footer {
 .collapse.in {
     display: block;
 }
+
+.mainheading {
+    margin-top: 10%;
+    font-size: 200px;
+}
+
+.getstarted {
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #ffb703;
+    border-width: 2px;
+    height: 3em;
+}
+
+.getstarted:hover {
+    border-color: #ffb703;
+    border-width: 2px;
+    color: #ffb703;
+    background-color: #023047;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
