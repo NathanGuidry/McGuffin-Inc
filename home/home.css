@@ -54,6 +54,10 @@ img.d-block {
     height: 35em;
 }
 
+.carousel {
+    border: 10px ridge #219ebc;
+}
+
 @media(max-width: 992px) {
 
     .mainheading {

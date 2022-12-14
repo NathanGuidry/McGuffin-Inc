@@ -11,7 +11,7 @@ col {
 }
 
 a.nav-link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #023047;
 }
 
@@ -43,6 +43,11 @@ footer {
 
 #nathan {
     height: 500px;
+    border: 10px ridge #219ebc;
+}
+
+hr {
+    border: 3px solid #023047;
 }
 
 @media(max-width: 992px) {

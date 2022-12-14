@@ -20,7 +20,7 @@ a.nav-link:hover {
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #023047;
 }
@@ -39,4 +39,35 @@ footer {
 
 .collapse.in {
     display: block;
+}
+
+.card {
+    border: 10px ridge #219ebc;
+    background-color: #023047;
+    color: white;
+}
+
+.btn {
+    border: solid #023047;
+    background-color: #ffb703;
+    color: #023047;
+    transition: background-color 0.45s, color 0.45s, border 0.45s;
+}
+
+.btn:hover {
+    border: solid #ffb703;
+    background-color: #023047;
+    color: #ffb703;
+}
+
+@media(max-width: 992px) {
+    #landingButton {
+        margin-top: 24px;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
 }
