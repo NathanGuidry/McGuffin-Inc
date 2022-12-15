@@ -46,10 +46,201 @@ h1 {
     font-size: 85px;
 }
 
-@media(max-width: 992px) {}
+input {
+    background-color: #023047;
+    border: 5px ridge #219ebc;
+    color: white;
+    height: 50px;
+}
 
-@media(max-width: 768px) {
+input:focus-visible {
+    outline: none;
+}
+
+#emailP {
+    font-size: 20px;
+}
+
+#phoneP {
+    font-size: 40px;
+}
+
+#name {
+    width: 70%;
+}
+
+#email {
+    width: 70%;
+}
+
+#subject {
+    width: 70.6%;
+    margin-top: 1em;
+}
+
+textarea {
+    width: 70.6%;
+    margin-top: 1em;
+    height: 18em;
+    background-color: #023047;
+    border: 5px ridge #219ebc;
+    color: white;
+}
+
+textarea:focus-visible {
+    outline: none;
+}
+
+.btn {
+    border: solid #023047;
+    background-color: #ffb703;
+    color: #023047;
+    transition: background-color 0.45s, color 0.45s, border 0.45s;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    border: solid #ffb703;
+    background-color: #023047;
+    color: #ffb703;
+}
+
+@media(max-width: 992px) {
+    svg {
+        width: 3em;
+        height: 3em;
+    }
+
+    #emailP {
+        font-size: 15px;
+    }
+
+    #phoneP {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 767px) {
     .navbar-brand {
         font-size: 1rem;
+    }
+
+    svg {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    #emailP {
+        font-size: 9px;
+    }
+
+    #phoneP {
+        font-size: 20px;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+
+    .formrow {
+        display: block;
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .formrow.firstrow {
+        margin-left: 15%;
+    }
+
+    #email {
+        margin-top: 1em;
+    }
+}
+
+@media(max-width: 475px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    svg {
+        width: 3em;
+        height: 3em;
+    }
+
+    #emailP {
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+
+    .formrow {
+        display: block;
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .formrow.firstrow {
+        margin-left: 15%;
+    }
+
+    #email {
+        margin-top: 1em;
+    }
+}
+
+@media(max-width: 375px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    svg {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    #emailP {
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .formrow {
+        display: block;
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .formrow.firstrow {
+        margin-left: 15%;
+    }
+
+    #email {
+        margin-top: 1em;
+    }
+}
+
+@media(max-width: 281px) {
+    .navbar-brand {
+        font-size: 0.65rem;
+    }
+
+    #emailP {
+        font-size: 10.62px;
     }
 }
