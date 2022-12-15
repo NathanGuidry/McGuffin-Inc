@@ -78,3 +78,9 @@ img.d-block {
         height: 15em;
     }
 }
+
+@media(max-width: 281px) {
+    .navbar-brand {
+        font-size: 0.65rem;
+    }
+}

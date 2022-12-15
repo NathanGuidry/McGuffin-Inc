@@ -79,3 +79,9 @@ h1 {
         font-size: 1rem;
     }
 }
+
+@media(max-width: 281px) {
+    .navbar-brand {
+        font-size: 0.65rem;
+    }
+}
