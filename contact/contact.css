@@ -41,6 +41,11 @@ footer {
     display: block;
 }
 
+h1 {
+    font-family: 'Abril Fatface', 'Montserrat';
+    font-size: 85px;
+}
+
 @media(max-width: 992px) {}
 
 @media(max-width: 768px) {

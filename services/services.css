@@ -60,6 +60,11 @@ footer {
     color: #ffb703;
 }
 
+h1 {
+    font-family: 'Abril Fatface', 'Montserrat';
+    font-size: 85px;
+}
+
 @media(max-width: 992px) {
     #landingButton {
         margin-top: 24px;
