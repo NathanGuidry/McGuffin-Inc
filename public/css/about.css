@@ -1,0 +1,96 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #8ecae6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #8ecae6;
+}
+
+col {
+    flex-wrap: nowrap;
+}
+
+a.nav-link {
+    font-size: 1.3rem;
+    color: #023047;
+}
+
+a.nav-link:hover {
+    color: #0d6efd;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #023047;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 4rem;
+}
+
+.social {
+    color: #023047;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.headshot {
+    height: 500px;
+    border: 10px ridge #219ebc;
+}
+
+h1 {
+    font-family: 'Abril Fatface', 'Montserrat';
+    font-size: 85px;
+}
+
+@media(max-width: 991px) {
+    .headshot {
+        width: 80%;
+        height: 600px;
+    }
+}
+
+@media(max-width: 768px) {
+    .headshot {
+        width: 80%;
+        height: 575px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .headshot {
+        width: 80%;
+        height: 400px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 281px) {
+    .navbar-brand {
+        font-size: 0.65rem;
+    }
+
+    .headshot {
+        width: 80%;
+        height: 250px;
+    }
+}
