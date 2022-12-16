@@ -105,6 +105,10 @@ textarea:focus-visible {
     color: #ffb703;
 }
 
+.alert {
+    min-height: 30px;
+}
+
 @media(max-width: 992px) {
     svg {
         width: 3em;

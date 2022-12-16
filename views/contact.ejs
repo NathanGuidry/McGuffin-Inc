@@ -32,7 +32,7 @@
                             <path
                                 d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
                         </svg>
-                        <p class="d-inline fw-bold" id="emailP">business@multipledynamics.com</p>
+                        <p class="d-inline fw-bold" id="emailP">business@multipledynamic.com</p>
                     </div>
                 </div>
                 <hr>
@@ -40,10 +40,25 @@
                 <p class="lead text-center">
                     Whether you wish to place an order, setup a meeting, discuss business details, or just say hi --
                     you can
-                    fill out this form and we'll get back to you within 3-5 business days!
+                    fill out this form and we'll get back to you within 5 business days!
                 </p>
 
-                <form action="">
+                <div class="alert alert-success alert-dismissible fade show fs-4 fw-bold d-none" role="alert">
+                    Form has been sent!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                <div class="alert alert-warning alert-dismissible fade show fs-4 fw-bold d-none" role="alert">
+                    You can only send one form!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                <div class="alert alert-danger alert-dismissible fade show fs-4 fw-bold d-none" role="alert">
+                    Could not send! Maybe shoot us an email?
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                <form action="" id="contactForm">
                     <div class="row formrow firstrow">
                         <div class="col d-block d-md-flex justify-content-end">
                             <input type="text" placeholder="Name" id="name" name="name" required>
@@ -61,7 +76,8 @@
 
                     <div class="row formrow">
                         <div class="col d-flex justify-content-center">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"
+                                required></textarea>
                         </div>
                     </div>
 
