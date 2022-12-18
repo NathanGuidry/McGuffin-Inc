@@ -10,6 +10,10 @@ col {
     flex-wrap: nowrap;
 }
 
+nav {
+    background-color: #8ecae6;
+}
+
 a.nav-link {
     font-size: 1.3rem;
     color: #023047;
@@ -63,6 +67,20 @@ footer {
 h1 {
     font-family: 'Abril Fatface', 'Montserrat';
     font-size: 85px;
+}
+
+.container {
+    animation: fadeIn 1.25s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media(max-width: 992px) {
