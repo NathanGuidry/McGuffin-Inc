@@ -58,6 +58,20 @@ img.d-block {
     border: 10px ridge #219ebc;
 }
 
+.container {
+    animation: fadeIn 1.25s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @media(max-width: 992px) {
 
     .mainheading {
