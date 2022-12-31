@@ -9,7 +9,7 @@ const dangerAlert = document.querySelector('.alert-danger')
 
 function sendEmail(name, email, subject, message) {
     var data = {
-        service_id: 'service_32z60vt',
+        service_id: 'service_2qylbpk',
         template_id: 'template_ecza646',
         user_id: '59cJpfxRubJF_77Qq',
         template_params: {
