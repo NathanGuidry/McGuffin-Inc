@@ -1,5 +1,2 @@
 #npm install for modules instead
 node_modules
-
-#sensitive data
-public\js\contact.js
